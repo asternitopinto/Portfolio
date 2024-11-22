@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Aste Malira</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Kona-Ba Ha'u</a></li>
+            <li><a href="portfolio.html">Portofolio</a></li>
+            <li><a href="contact.html">Kontaktu</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Ha'u Nia Portofolio</h1>
+    </header>
+    
+    <section class="portfolio">
+        <div class="container">
+            <h2>Ha'u Nia Projetu Sira</h2>
+            <div class="gallery">
+                <img src="loginout.PNG" alt="Foto Karya 1" class="gallery-img" id="img1">
+                <img src="Web.PNG" alt="Foto Karya 2" class="gallery-img" id="img2">
+                <!-- Tambahkan gambar lainnya jika perlu -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal untuk menampilkan gambar besar -->
+    <div id="modal" class="modal">
+        <span class="close-btn">&times;</span>
+        <img class="modal-content" id="modal-img">
+        <div id="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
